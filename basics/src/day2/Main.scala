@@ -3,7 +3,7 @@ package day2
 object Main {
   def main(args: Array[String]): Unit = {
     val service = new UserServiceImpl
-    service.search
+    service.save
     
     
     val e1: User = new Employee("John");
