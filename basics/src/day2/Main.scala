@@ -2,6 +2,10 @@ package day2
 
 object Main {
   def main(args: Array[String]): Unit = {
+    val service = new UserServiceImpl
+    service.search
+    
+    
     val e1: User = new Employee("John");
     e1.work
 
